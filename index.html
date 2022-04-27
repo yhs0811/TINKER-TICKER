@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html><head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+	<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><style type="text/css">
+	html{font-family: 'Noto Sans KR', sans-serif;}
+	*{box-sizing: border-box;}
+	body{margin: 0;
+		box-sizing: border-box;}
+	.row{width: 1020px;
+			margin: auto;
+			padding: 10px 50px;
+			position: relative;
+			display: flex;}
+	section{background: black; padding-top: 50px; margin: auto;}
+	header{height: 1200px; margin: auto;}
+	flex-box{color: black;}
+
+	a{display: inline-block; background: none; text-decoration: none; border-radius: 5px;}
+
+	.col-1{width: 150px; background: none; margin: 0px 10px;}
+	.col-2{width: 320px; background: none; margin: 0px 10px;}
+	.col-3{width: 490px; background: none; margin: 0px 10px;}
+	.col-4{width: 660px; background: none; margin: 0px 10px;}
+	.col-5{width: 830px; background: none; margin: 0px 10px;}
+	.col-6{width: 1000px; background: none; margin: 0px 10px;}
+
+	h1{font-size: 75pt; margin-top: 450px; line-height: 1.25; font-weight: 900; word-spacing: -1px; letter-spacing: -1px; text-align: center;}
+	h2{font-size: 40pt; line-height: 1.25; margin-top:13px; font-weight: 700; word-spacing: -1px; letter-spacing: -1px; margin-bottom: 50px; margin:50px 15px; font-weight: 900;}
+	h3{font-size: 16pt;margin-bottom: 20px; font-weight: 600; line-height: 1.3;word-spacing: -3px; margin:24px 15px}
+
+	p{line-height: 1.75; word-break: keep-all; margin:24px 15px; font-weight: 300; word-spacing: -1.5px; font-size: 11.5pt;}
+
+
+
+		h4{font-size: 20pt;margin-bottom: px; font-weight: 600; line-height: 0;word-spacing: -3px; margin:24px 15px;
+			font-weight: 900;}
+		h5{font-size: 20pt;margin-bottom: 20px; font-weight: 600; line-height: 1.3;word-spacing: -3px; margin:24px 15px; font-weight: 300;}
+
+	a-a{display: inline-block ; background: orangered; border-radius: 1px; color: black; font-weight: 900; transform: skew(-17deg);}
+
+	a{display: inline-block ; background: none; border-radius: 1px; font-weight: bold;}
+
+	footer{height: 150px; background: white;}
+	footer p{font-size: 10pt; text-align: center; font-weight:bold; color: darkgray; margin-top: 100px; }
+
+
+
+	.jb-a{width: 500px; margin: 0px auto; position: relative; top: -780px;}
+	.jb-c{position: absolute; top: 0px; left: 0px;
+		display: none; max-width: 100%;}
+	.jb-a:hover .jb-c{display: block;}
+
+	.text-white{color: white;}
+	.text-red{color: #be1c23}
+
+	.text-align{word-break: keep-all;}
+
+	.font-weight{font-weight: bold;}
+	.font-style{font-style: italic;}
+
+	.bg-black{background: black;}
+	.bg-none{background: none;}
+	.bg-white{background: white;}
+
+	.bg-head{background: url(헤더.png);
+				background-size:cover;
+				text-align: ;}
+	.bg-pjg{background: url(박정구프로필22.gif);
+				background-size: cover;
+				text-align: ;}
+	.bg-lhm{background: url(이효민프로필.gif);
+				background-size: cover;
+				text-align: ;}
+
+	.bg-paper{background: url(paper.png);
+				background-size: cover;
+				;}
+
+	.bg-footer{background: url(footer.png);
+				background-size: cover; height: 400px;}
+
+	.img-board{padding-top: 700px; display: block; margin: auto; width: 100%;}
+
+	.height-head{height: 1000px;}
+	.height-pjg{height: 1600px;}
+	.height-lhm{height: 1600px;}
+	.height-blueray{height: 1500px;
+					margin-top: -10px;
+					padding-top: 10px;}
+
+
+	.font-size{font-size: 13pt;}
+
+
+	.paper{height: 2800px;}
+
+	.text{font-size: 130pt;}
+
+	.naver{width: 90px; margin: 0px 20px;}
+
+	.text-align1{margin-top: 800px;}
+	.text-align2{margin-top: 650px;}
+	.text-align3{margin-top: 60px;}
+	.VHS{position: absolute;}
+
+	.text-shadow{text-shadow: 0px 0px 9px #000000;}
+
+	.bg-gr{background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 17%, rgba(195,195,195,1) 56%, rgba(255,255,255,1) 100%); height: 2500px;}
+
+	.imgsertoku{float: right; margin-right: 60px; clear: both;
+		margin-top: 28px;}
+
+	.imgsertoku-b{float: right; margin-right: 80px; clear: both;
+		margin-top: 60px;}
+
+	
+	.a-b{width: 400px; margin: 0px auto;}
+	.a-b img{transition: all 0.2s linear;}
+	.a-b:hover img{transform: scale(1.4);}
+
+</style></head>
+<body>
+	<header class="bg-head ">
+		<div class="row">
+			<div class="col-6 bg-none">
+			</div>
+		</div>
+	</header>
+	<section>
+		<div class="row bg-black">
+			<div class="col-3 img-bomb">
+				<img src="폭탄.png">
+			</div>
+			<div class="col-3">
+				<h2 class="text-red">사제 폭탄<br>보내드립니다.</h2>
+					<div class="text-white">
+						<p>입사 면접에 번번히 떨어져 취업 문턱에서 좌절하는
+						20대 취준생 주인공은, 사제 폭탄의 생산자다.
+						사람들이 폭탄을 터뜨려주길 바라며 자신이 만든
+						폭탄을 보내지만, 모두 대수롭지 않게 여길 뿐이다.</p>
+						<p class="font-weight font-size"> <span style="font-style: italic;">그러던 어느날</span> <a-a> 생산자</a-a> <span style="font-style: italic;">앞에 폭탄을 터뜨려 줄</span> <br><a-a>집행자</a-a> <span style="font-style: italic;">가 나타난다.</span></p>
+					</div>
+			</div>
+		</div>
+		</section>
+
+
+
+		<section class="height-pjg bg-pjg">
+			<div class="row">
+				<div class="col-3">
+				</div>
+			<div class="col-3 text-align1">
+					<img src="미니폭탄.png" class="imgsertoku" width="150px">
+					<h2 class="text-red">박정구<br>:생산자</h2>
+					
+					<p class="text-white text-shadow">고등학교 때, 선생님의 부당한 폭력에 복수하기 위해 사제폭탄을 제작해 소년원까지 다녀왔던 정구는 대학교의 조교가 된 이후에도 사회에 잘 적응하지 못하며 불만과 반발심으로 폭탄을 생산한다.<br><b>하지만 폭탄을 제작하기만 할 뿐, 터뜨리진 않는다.</b></p>
+				</div>
+			</div>
+		</section>
+
+
+
+		<section class="height-lhm bg-lhm margin-bottom">
+			<div class="row">
+				<div class="col-3 text-align1">
+					<img src="비디오.png" class="imgsertoku-b" width="150px">
+					<h2 class="text-red">이효민<br>:집행자</h2>
+					<p class="text-white text-shadow">첫 인상부터 범상치 않은 등장으로 '들개'의 <br>면모를 보여준다. 늘 세상에 대한 불만과 에너지로<br> 가득 찬 효민은 사제 폭탄에 흥미를 느끼게 되고, <br> <b>효민에게 정구의 사제 폭탄은 분노를 폭발시킬 좋은<br> 기폭제가 된다. </b></p>
+				</div>
+			<div class="col-3"></div>
+			</div>
+		</section>
+
+
+
+
+		<section class="bg-gr">
+			<divs class="row">
+					<div style="text-align:center;"><img class="VHS" src="VHS.png"></div>
+					<div class="col-3">
+						<h2 class="text-align2 text-red">길들여진 척하는<br> 들개, 길들여지지 않는 들개</h2>
+					</div>
+					<div class="col-3 text-align2 text-margin">
+						<h3>억지로 눌러 놓은 사람과 언제든지 터뜨릴 준비가 된 사람, 생산자와 집행자, 박정구와 이효민</h3>
+						<p>여기까지만 보면 균형이 완벽해 보이는 조합이지만, 어찌 됐든 간에 사회에 적응하며 살아가야 하는 정구와, 한번 시작하면 통제가 되지 않는 효민 사이의 관계는 터질듯 말듯한 폭탄처럼 조마조마하기만 하다.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		</section>
+		<section>
+			<div class="row">
+				<div class="col-6">
+					<img src="테이프1.png" style="position: absolute; z-index: 1; left: -80px; top: -130px;" width="300px">
+					<img src="테이프2.png" style="position: absolute; right: -120px; top: 520px;" width="350px">
+					<img src="테이프3.png" style="position: absolute; left: -100px; top: -90px;" width="300px">
+					<iframe width="1000" height="563" src="https://www.youtube.com/embed/RNQmRXGBqBM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		</section>
+		<section class="bg-paper paper" style="width:100%">
+				<div class="row"><img src="board.png" class="img-board"  >
+				</div>
+					<div class="row">
+						<div class="col-3">
+							<h2 class="text-red">터뜨릴 것인가?<br> 순응할 것인가?<br></h2>
+						</div>
+						<div class="col-3">
+						<h3 class="text-align3">'생산자'의 위치를 위협하는 '집행자'</h3>
+						<p>호흡이 맞고 잘 통하는 듯 하였으나, 이내 조금씩 사회에 적응하며 자신의 자리를 매김하고자 하는 생산자 '정구'의 삶을 '시시하다'며 교묘하게 위협해 대는 집행자 '효민'은 언제 터질지 모르는 폭탄 그 자체가 되어 버린다.</p>
+					</div>
+							<p></p>
+						</div>
+					</div>
+			</div>
+		</section>
+		<section class="height-blueray">
+			<div class="row">
+				<div class="col-6 ">
+					<h1 class="text-red text">생산자에게<br>사제폭탄을<br>받고싶다면</h1>
+					 <div class="jb-a">
+      					<img src="none.png" alt="" class="jb-b">
+     					<a class="a" href ="http://www.yes24.com/Product/Goods/25605054" target="_new"> <img src="폭탄2.png" alt="" class="jb-c"></a>
+    				</div>
+				</div>
+			</div>
+		</section>
+		<section class="bg-footer">
+			<div class="row">
+				<div class="col-3">
+					<h4 class="text-red">들개 ㅣ TINKER TICKER<br></h4>
+					<h5 class="text-red">2014.04.03 ㅣ 감독 김정훈
+				</div>
+				<div class="col-3">
+					<div class="a-b" style="display: inline;">
+					<a class="a" href ="https://serieson.naver.com/movie/258826?isWebtoonAgreePopUp=true&isWebtoonAgreePopUp=true" target="_new"><img src="시리즈온.png" class="naver"></a></div>
+					<div class="a-b"style="display: inline;" >
+					<a class="a" href ="https://www.wavve.com/player/movie?movieid=MV_CJ01_CA0000011477" target="_new"><img src="웨이브.png"class="naver"></a></div>
+					<div class="a-b"style="display: inline;">
+					<a class="a" href ="https://watcha.com/contents/share/m5rQQg7" target="_new"><img src="왓챠.png"class="naver"></a>
+				</div>
+			</div>
+		</section>
+<footer><p> &copy; Yoon Heesu. 2022. All Rights Reserved.</p></footer>
+</body>
+</html>
